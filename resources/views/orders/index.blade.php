@@ -8,7 +8,18 @@
         text-overflow: ellipsis;
         white-space: nowrap;
     }
-</style>
+
+        
+        body{background-color: black;}
+    
+        h2{color: aqua;}
+
+        label{color: white;}
+
+        span{color: white;}
+        thead{color: white;}
+        tbody{color: white;}
+    </style>
 @endpush
 @section('content')
 

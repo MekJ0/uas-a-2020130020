@@ -1,13 +1,24 @@
 @extends('layout.master')
 @section('title', 'Main Page')
 @push('css_after')
-    <style>
-        td {
-            max-width: 0;
-            overflow: hidden;
-            text-overflow: ellipsis;
-            white-space: nowrap;
-        }
+<style>
+    td {
+        max-width: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+        
+        body{background-color: black;}
+    
+        h2{color: aqua;}
+
+        label{color: white;}
+
+        span{color: white;}
+        thead{color: white;}
+        tbody{color: white;}
     </style>
 @endpush
 @section('content')

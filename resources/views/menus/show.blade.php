@@ -1,6 +1,25 @@
 @extends('layout.master')
 @section('title', $menu->judul)
 @section('content')
+<style>
+    td {
+        max-width: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+        
+        body{background-color: black;}
+    
+        h2{color: aqua;}
+
+        label{color: white;}
+
+        span{color: white;}
+        thead{color: white;}
+        tbody{color: white;}
+    </style>
     <div class="col-md-12">
         <div class="row">
             <div class="col-md-8">

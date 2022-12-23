@@ -1,6 +1,20 @@
 @extends('layout.master')
 @section('title', 'Add New menu')
 @section('content')
+<style>
+        td {
+            max-width: 0;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        
+        body{background-color: black;}
+    
+        h2{color: aqua;}
+
+        label{color: white;}
+    </style>
 <h2>Add New menu</h2>
 <form action="{{ route('menus.store') }}" method="POST">
     @csrf
