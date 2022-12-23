@@ -18,7 +18,7 @@
         </div>
     @endif
 
-    <div class="row">
+  
         <div class="col-md-5 mb-3">
             <div class="table-responsive">
                 <div class="table-wrapper">
@@ -41,9 +41,8 @@
                 </div>
             </div>
         </div>
-
-        <div class="col-md-2 mb-3">
-        </div>
+<br>
+<br>
 
         <div class="col-md-5 mb-3">
             <div class="table-responsive">
@@ -67,7 +66,7 @@
                 </div>
             </div>
         </div>
-    </div>
+  
 
 
 @endsection
